@@ -1,0 +1,49 @@
+/* Your CSS styles */
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+p {
+  text-align: left;
+}
+
+.about-section {
+  /* Your styles for the "About-me" class */
+  align-items: left;
+  justify-content: left;
+  height: auto;
+}
+
+#about-me {
+  /* Your styles for the "about-me" ID */
+  text-align: left;
+}
+
+#profile-picture {
+  /* Your styles for the "profile-picture" ID */
+  width: 20rem;
+  height: 18rem;
+  border-radius: 100%;
+}
+
+.under-construction {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
